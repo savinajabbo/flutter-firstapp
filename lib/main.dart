@@ -26,7 +26,7 @@ class Home extends StatelessWidget {
           Text('hello, world'),
           ElevatedButton(
             onPressed: () {},
-            style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.amber),),
+            style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),),
             child: Text('click me'),
           ),
           Container(
