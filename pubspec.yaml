@@ -35,6 +35,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  flutter_native_splash: ^2.3.13
 
 dev_dependencies:
   flutter_test:
@@ -46,6 +48,18 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^3.0.0
+
+flutter_native_splash:
+  color: "#f7f6f1"
+  color_dark: "#272727"
+  image: assets/images/aesthetic_calendar.png
+  image_dark: assets/images/aesthetic_calendar.png
+
+android_12:
+  image: assets/images/aesthetic_calendar.png
+  icon_background_color: "#f7f6f1"
+  image_dark: assets/images/aesthetic_calendar.png
+  icon_background_color_dark: "#272727"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -73,12 +87,12 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-fonts:
- - family: Lato
-   fonts:
-     - asset: fonts/Kumbh_Sans,Lato,Public_Sans/Lato/Lato-Regular.ttf
-     - asset: fonts/Kumbh_Sans,Lato,Public_Sans/Lato/Lato-Italic.ttf
-       style: italic
+#fonts:
+# - family: Lato
+#   fonts:
+#     - asset: fonts/Kumbh_Sans,Lato,Public_Sans/Lato/Lato-Regular.ttf
+#     - asset: fonts/Kumbh_Sans,Lato,Public_Sans/Lato/Lato-Italic.ttf
+#       style: italic
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
