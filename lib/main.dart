@@ -11,7 +11,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
-      themeMode: ThemeMode.light,
+      themeMode: ThemeMode.dark,
       home: AppHome(),
     );
   }
@@ -35,8 +35,8 @@ class AppHome extends StatelessWidget {
         padding: const EdgeInsets.all(20.0),
         child: ListView(
           children: [
-            const Text("Heading", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),),
-            const Text("Sub-heading"),
+            const Text("Heading", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 40),),
+            const Text("Sub-heading", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),
             const Text("Paragraph"),
             ElevatedButton(
               onPressed: () {},
