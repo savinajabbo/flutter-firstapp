@@ -1,1 +1,1 @@
-const tDefaultSize = 30
+var tDefaultSize = 30;
